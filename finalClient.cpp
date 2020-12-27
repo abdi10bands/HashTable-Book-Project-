@@ -2,9 +2,7 @@
 // Loading the data file has to happen here because
 // generic htable should not know about the file
 // format.
-// Change everywhere it says **
-// Must write / change @@ functions in htable.
-// Must improve the user interface!
+
 
 #include "class.h"
 #include <string>
@@ -82,14 +80,14 @@ int main()
 	  cout << "In Slot: " << T.add(el_t(ISBN, name, Author,TheVolume));
           cout << "  added." << endl;
 	  break;
-	  /*
+	  
 	case 5: // ** change key to yours
           cout << "Enter a key: "; cin >> ISBN;
-          cout << "In Slot: " << T.deleteIt(el_t(ISBN,"")); //@@
+          cout << "In Slot: " << T.deleteIt(el_t(ISBN,"", "", -1)); //@@
           cout << "  deleted." << endl;
           // ** what happens if the item was not found?
 	  break;
-	  */ 
+	   
 	case 6:
 	  T.displayTable(fout);
 	  cout << "Sent data to newout" << endl; 
