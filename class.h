@@ -1,5 +1,4 @@
-// CS311 Yoshii - Hash Table header DO NOT CHANGE!!! 
-// ------------------------------------------------
+
 
 #include "slist.h"
 
