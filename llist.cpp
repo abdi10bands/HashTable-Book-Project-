@@ -1,21 +1,4 @@
-//CS311 Yoshii Linked List class
-
-//INSTRUCTION:
-//Must use the provided HW3P1_help.doc to create llist.cpp
-//It helps to first create if-then-else structure to fill in later.
-//- Make sure PURPOSE and PARAMETER comments are given in detail
-//- Make sure all if-then-else are commented describing which case it is
-//- Make sure all local variables are described fully with their purposes
-
-//EMACS HINT:
-//  You can copy from a Word document to emacs (contrl-right click)
-//  cntr-K cuts and cntr-Y pastes
-//  Esc x replace-str does string replacements
-//  Esc > goes to the end of the file; Esc < to the beginning
-//  Tab on each line will indent perfectly for C++
-
-// ====================================================
-//HW#: HW3P1 llist
+// Linked List class
 //Your name: Abdiel Verdin
 //Complier:  g++
 //File type: llist.cpp implementation file
